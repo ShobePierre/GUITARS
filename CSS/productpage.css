@@ -1,0 +1,109 @@
+
+  *{
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  
+  
+  html{
+      background-color: whitesmoke;
+      overflow-x: hidden;
+      font-family: Verdana, Tahoma, sans-serif;
+  }
+   
+  .Product-title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  
+
+
+    .container{
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap:5px;
+     }
+    
+    .container .card{
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.247);
+      border-radius: 5px;
+      background: #ffffff;
+      text-align: center;
+      margin:20px;
+      margin-bottom: 2px;
+      padding-top:20px;
+      padding-bottom: 20px;
+     
+    }
+     
+    .container .card h5{
+      color:rgba(0, 0, 0, 0.514);
+      font-size: auto;
+      padding: 10px;
+      padding-bottom: auto;
+    
+    
+    }
+    
+    .container .card img{
+      max-width: 120px;
+      max-height: 400px;
+      padding-bottom: 10px;
+     }
+    
+     .container .card p{
+      left: 100px;
+      color: green;
+      padding-bottom: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .container .card .buy-button{
+      background-color: #3498db; 
+      color: white; 
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s; 
+    }
+    
+    .container .buy-button:hover {
+      background-color: #2980b9; 
+    }
+    
+    
+    
+    .container .card .add-button{
+      background-color: #019249; 
+      color: white; 
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s; 
+    }
+    
+    .container .add-button:hover {
+      background-color: #005f3f; 
+    }
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  

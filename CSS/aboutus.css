@@ -1,0 +1,91 @@
+
+
+
+  *{
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  
+  
+  html{
+      background-color: whitesmoke;
+      overflow-x: hidden;
+      font-family: Verdana, Tahoma, sans-serif;
+  }
+   
+  
+  
+
+    .content-section {
+
+      text-align: justify;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff; 
+      border-radius: 8px; 
+    }
+    .centered-title {
+      text-align: center; 
+      margin-top: 20px; 
+      margin-bottom: 20px; 
+      font-weight: 200;
+    }
+  
+   
+    .svs{
+      position: absolute;
+    }
+
+    .svs img{
+      position: relative;
+      bottom: 100px;
+      left: 300px;
+    }
+  
+  
+    
+  
+  .haha{
+    position: absolute;
+    top: 550px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 100px;
+
+  }
+  
+  
+  .haha .centered-title1{
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .haha .content-section1{
+    font-size: 15px;
+    text-align: justify;
+    color: #000000de;
+  }
+  
+  
+  
+  @media screen and (min-width: 1420px){
+    .svs img{
+      bottom: 100px;
+      left: 400px;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
